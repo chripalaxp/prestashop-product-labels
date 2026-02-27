@@ -28,7 +28,7 @@ Module για PrestaShop 1.6 / 1.7 που προσθέτει προσαρμοσ�
 ### Τι υλοποιήθηκε
 - **Βάση δεδομένων**
   - Πίνακας `ps_product_labels` με πεδία:
-    - `id_product_labels` (PK)
+    - `id_product_labels` 
     - `id_product`
     - `id_shop`
     - `label_type`
