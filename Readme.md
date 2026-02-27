@@ -4,6 +4,8 @@
 Module για PrestaShop 1.6 / 1.7 που προσθέτει προσαρμοσμένα labels σε προϊόντα, π.χ. **Best Seller**, **New Arrival**, **Limited Offer**.  
 Τα labels εμφανίζονται τόσο στη **λίστα προϊόντων** (category/search) όσο και στη **σελίδα προϊόντος**.
 
+Για τη βασική δομή του module χρησιμοποιήθηκε το εργαλείο [PrestaShop Module Generator](https://validator.prestashop.com/generator).
+
 ### Τι ζητήθηκε
 - **Εμφάνιση label σε προϊόντα** με προκαθορισμένες τιμές:
   - None
@@ -26,7 +28,7 @@ Module για PrestaShop 1.6 / 1.7 που προσθέτει προσαρμοσ�
 ### Τι υλοποιήθηκε
 - **Βάση δεδομένων**
   - Πίνακας `ps_product_labels` με πεδία:
-    - `id_product_labels`
+    - `id_product_labels` (PK)
     - `id_product`
     - `id_shop`
     - `label_type`
