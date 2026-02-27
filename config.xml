@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>product_labels</name>
+	<displayName><![CDATA[Product Labels]]></displayName>
+	<version><![CDATA[1.0.0]]></version>
+	<description><![CDATA[Product Labels (NEW,OFFER ETC)]]></description>
+	<author><![CDATA[Christos Palaiologou]]></author>
+	<tab><![CDATA[administration]]></tab>
+	<is_configurable>1</is_configurable>
+	<need_instance>1</need_instance>
+</module>
